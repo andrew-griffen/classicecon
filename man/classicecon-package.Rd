@@ -6,7 +6,7 @@
 \alias{classicecon-package}
 \title{classicecon: Classic Economics Datasets}
 \description{
-Some datasets that I use in class to demonstrate empirical results from classic economics papers.
+Some datasets that I use in class to demonstrate empirical results from some classic (and some instant classic) economics papers.
 }
 \author{
 \strong{Maintainer}: Andrew Griffen \email{andrew.griffen@gmail.com}

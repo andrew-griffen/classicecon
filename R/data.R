@@ -1,4 +1,4 @@
-#' Data from Card and Krueger (1991) "Minimum wages and employment: A case study of the fast food industry in New Jersey and Pennsylvania"
+#' Data from Card and Krueger (1994) "Minimum wages and employment: A case study of the fast food industry in New Jersey and Pennsylvania"
 #'
 #' @format A tibble with 820 rows and 33 columns:
 #' \describe{
@@ -37,7 +37,77 @@
 #' \item{special}{Indicator if special program for new workers.}
 #' }
 #' @source David Card's website https://davidcard.berkeley.edu/data_sets.html
-"ck"
+"ck94"
+
+#' Census data for Angrist and Krueger (1991).
+#'
+#' @format A tibble with 1,063,634 rows and 6 columns:
+#' \describe{
+#' \item{log_wage}{Log weekly wage.}
+#' \item{education}{Years of education.}
+#' \item{quarter_birth}{Quarter of birth.}
+#' \item{birthyear}{Indicator variable for Hispanic.}
+#' \item{census}{Year of census observation comes from.}
+#' \item{race}{Respondent race (white or black).}
+#' }
+#' @source Angrist Data Archive.
+"ak91"
+
+#' National Supported Work treatment data for males.
+#'
+#' @format A tibble with 722 rows and 12 columns:
+#' \describe{
+#' \item{treated}{Indicator variable for treated.}
+#' \item{age}{Age in years.}
+#' \item{educ}{Education in years.}
+#' \item{black}{Indicator variable for black.}
+#' \item{hispanic}{Indicator variable for Hispanic.}
+#' \item{married}{Indicator variable for married.}
+#' \item{nodegree}{Indicator variable for no degree.}
+#' \item{re74}{Earnings in 1974.}
+#' \item{re75}{Earnings in 1975.}
+#' \item{re79}{Earnings in 1978.}
+#' \item{data}{Indicator for early random assignment.}
+#' \item{data}{Dataset.}
+#' }
+#' @source LaLonde (1986).
+"nsw"
+
+#' PSID comparison data.
+#'
+#' @format A tibble with 722 rows and 12 columns:
+#' \describe{
+#' \item{age}{Age in years.}
+#' \item{educ}{Education in years.}
+#' \item{black}{Indicator variable for black.}
+#' \item{hispanic}{Indicator variable for Hispanic.}
+#' \item{married}{Indicator variable for married.}
+#' \item{nodegree}{Indicator variable for no degree.}
+#' \item{re74}{Earnings in 1974.}
+#' \item{re75}{Earnings in 1975.}
+#' \item{re79}{Earnings in 1978.}
+#' \item{data}{Dataset.}
+#' }
+#' @source Panel Study of Income Dynamics.
+"psid"
+
+#' CPS comparison data.
+#'
+#' @format A tibble with 722 rows and 12 columns:
+#' \describe{
+#' \item{age}{Age in years.}
+#' \item{educ}{Education in years.}
+#' \item{black}{Indicator variable for black.}
+#' \item{hispanic}{Indicator variable for Hispanic.}
+#' \item{married}{Indicator variable for married.}
+#' \item{nodegree}{Indicator variable for no degree.}
+#' \item{re74}{Earnings in 1974.}
+#' \item{re75}{Earnings in 1975.}
+#' \item{re79}{Earnings in 1978.}
+#' \item{data}{Dataset.}
+#' }
+#' @source Current Population Survey.
+"cps"
 
 
 

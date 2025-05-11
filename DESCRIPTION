@@ -3,7 +3,7 @@ Title: Classic Economics Datasets
 Version: 0.0.0.9000
 Authors@R:
     person("Andrew", "Griffen", , "andrew.griffen@gmail.com", role = c("aut", "cre"))
-Description: Some datasets that I use in class to demonstrate empirical results from classic economics papers.
+Description: Some datasets that I use in class to demonstrate empirical results from some classic (and some instant classic) economics papers.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
