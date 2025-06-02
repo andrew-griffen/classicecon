@@ -3,7 +3,7 @@
 \docType{data}
 \name{nsw}
 \alias{nsw}
-\title{National Supported Work treatment data for males.}
+\title{National Supported Work data for males.}
 \format{
 A tibble with 722 rows and 12 columns:
 \describe{
@@ -28,6 +28,6 @@ LaLonde (1986).
 nsw
 }
 \description{
-National Supported Work treatment data for males.
+National Supported Work data for males.
 }
 \keyword{datasets}

@@ -13,7 +13,7 @@
 #' \item{state}{PA or NJ}
 #' \item{southj}{Indicator for South Jersey.}
 #' \item{centralj}{Indicator for Central Jersey.}
-#' \item{northj}{Indicator for North Jersey.}  
+#' \item{northj}{Indicator for North Jersey.}
 #' \item{pa1}{Indicator for northeast suburbs of Philadelphia.}
 #' \item{pa2}{Easton, PA, etc.}
 #' \item{shore}{Indicator for NJ Shore.}
@@ -26,7 +26,7 @@
 #' \item{meals}{Free/reduced meal variable.}
 #' \item{open}{Opening hour.}
 #' \item{hrsopen}{Number of hours open per day.}
-#' \item{psoda}{Price of a soda including tax.} 
+#' \item{psoda}{Price of a soda including tax.}
 #' \item{pfry}{Price of fries including tax.}
 #' \item{pentree}{Price of entree including tax.}
 #' \item{nregs}{Number of cash registers in store.}
@@ -53,7 +53,7 @@
 #' @source Angrist Data Archive.
 "ak91"
 
-#' National Supported Work treatment data for males.
+#' National Supported Work data for males.
 #'
 #' @format A tibble with 722 rows and 12 columns:
 #' \describe{
@@ -109,7 +109,33 @@
 #' @source Current Population Survey.
 "cps"
 
+#' Per capita cigarette consumption data by state/year and treatment by California's Tobacco Control Program.
+#' Used as an example of synthetic control method.
+#'
+#' @format A tibble with 1,209 rows and 4 columns:
+#' \describe{
+#' \item{state}{State in the US.}
+#' \item{year}{Year.}
+#' \item{packs_per_capita}{Total annual cigarette packs per capita.}
+#' \item{treated}{1 for treated by California's Tobacco Control Program, 0 otherwise.}
+#' }
+#' @source "Synthetic Control Methods for Comparative Case Studies: Estimating the Effect of California's Tobacco Control Program" by Abadie, Diamond, and Hainmueller
+"cali_prop99"
 
+
+#' Survival data from the Titanic disaster.
+#'
+#' @format A tibble with 1,309 rows and 7 columns:
+#' \describe{
+#' \item{survived}{Survived.}
+#' \item{passenger_class}{Passenger class.}
+#' \item{sex}{Male or Female.}
+#' \item{age}{Age in years.}
+#' \item{sibling_spouse}{Number of siblings / spouse on board.}
+#' \item{parents_children}{Number of parents / children on board.}
+#' \item{name}{Name of passenger.}
+#' }
+"titanic"
 
 
 
