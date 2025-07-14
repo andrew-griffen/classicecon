@@ -7,7 +7,7 @@
 \format{
 A tibble with 1,309 rows and 7 columns:
 \describe{
-\item{survived}{Survived.}
+\item{survived}{Indicator for whether passenger survived.}
 \item{passenger_class}{Passenger class.}
 \item{sex}{Male or Female.}
 \item{age}{Age in years.}

@@ -66,7 +66,7 @@
 #' \item{nodegree}{Indicator variable for no degree.}
 #' \item{re74}{Earnings in 1974.}
 #' \item{re75}{Earnings in 1975.}
-#' \item{re79}{Earnings in 1978.}
+#' \item{re78}{Earnings in 1978.}
 #' \item{data}{Indicator for early random assignment.}
 #' \item{data}{Dataset.}
 #' }
@@ -127,7 +127,7 @@
 #'
 #' @format A tibble with 1,309 rows and 7 columns:
 #' \describe{
-#' \item{survived}{Survived.}
+#' \item{survived}{Indicator for whether passenger survived.}
 #' \item{passenger_class}{Passenger class.}
 #' \item{sex}{Male or Female.}
 #' \item{age}{Age in years.}
@@ -137,5 +137,32 @@
 #' }
 "titanic"
 
+
+#' Abortion and crime data.
+#'
+#' Data set from "The Impact Of Legalized Abortion On Crime" by John J. Donohue III And Steven D. Levitt.
+#'
+#' @format A tibble with 1,734 rows and 17 columns:
+#' \describe{
+#' \item{murder}{De-trended log murder rate.}
+#' \item{violent}{De-trended log violent crime rate.}
+#' \item{property}{De-trended log property crime rate.}
+#' \item{ear}{Effective abortion rate.}
+#' \item{state}{State.}
+#' \item{fips}{Federal Information Processing Series (FIPS) code.}
+#' \item{abbr}{State abbreviation.}
+#' \item{year}{Year.}
+#' \item{prison}{Lagged prisoners per capita.}
+#' \item{police}{Lagged police per capita.}
+#' \item{population}{State population.}
+#' \item{unemp}{Unemployment rate.}
+#' \item{income}{Income per capita.}
+#' \item{poverty}{Poverty rate.}
+#' \item{afdc}{AFDC (welfare) generosity at year t - 15.}
+#' \item{gun}{Indicator for concealed weapons law.}
+#' \item{beer}{Beer consumption per capita.}
+#' }
+#' @source Donohue and Levitt (2001).
+"abortion"
 
 

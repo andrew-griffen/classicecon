@@ -16,7 +16,7 @@ A tibble with 722 rows and 12 columns:
 \item{nodegree}{Indicator variable for no degree.}
 \item{re74}{Earnings in 1974.}
 \item{re75}{Earnings in 1975.}
-\item{re79}{Earnings in 1978.}
+\item{re78}{Earnings in 1978.}
 \item{data}{Indicator for early random assignment.}
 \item{data}{Dataset.}
 }
